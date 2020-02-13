@@ -9,4 +9,4 @@
 
 
 #### 效果展示
-![image](https://github.com/8treenet/quick-open-library/blob/master/images/show.gif)
+![demo](/images/show.gif)
