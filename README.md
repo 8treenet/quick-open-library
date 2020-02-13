@@ -1,15 +1,15 @@
 ## quick-open-libray
-### vscode市场中搜索 quick-open-libray
+### vscode market search for 'quick-open-libray'
 
-#### 安装code 命令到环境变量
+#### Install 'code' to environment variable
 ```
 1. command + shift + p
-2. 输入 > code
-3. 选择输入回车 > Shell command 'code' successfully installed in PATH.
+2. Input > code
+3. Select and enter > Shell command 'code' successfully installed in PATH.
 ```
 
-#### 效果展示
-##### 跳转到依赖的项目文件，右键菜单点击Quick open， 会以当前依赖文件的目录打开新的工程。
+#### Effect display
+##### Jump to dependent item file, right-click menu click 'Quick open', A new project opens in the directory of the current file.
 ![show1](/images/show1.png)
 ![show2](/images/show2.png)
 ![show3](/images/show3.png)
