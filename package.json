@@ -6,7 +6,7 @@
         "vscode",
         "quick-open-library"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "yangshu",
     "engines": {
         "vscode": "^1.27.0"
