@@ -1,0 +1,52 @@
+{
+    "name": "quick-open-library",
+    "displayName": "quick-open-library",
+    "description": "Quick open library",
+    "keywords": [
+        "vscode",
+        "library"
+    ],
+    "version": "1.0.3",
+    "publisher": "yangshu",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "icon": "images/icon.png",
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.demo.getCurrentFilePath",
+                "title": "Quick Open"
+            }
+        ],
+        "keybindings": [
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorFocus",
+                    "command": "extension.demo.getCurrentFilePath",
+                    "group": "navigation@5"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
