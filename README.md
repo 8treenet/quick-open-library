@@ -1,5 +1,5 @@
 ## quick-open-libray
-### vscode市场中搜搜 quick-open-libray
+### vscode市场中搜索 quick-open-libray
 
 #### 安装code 命令到环境变量
 ```
