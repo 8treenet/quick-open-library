@@ -4,9 +4,12 @@
     "description": "Quick open library",
     "keywords": [
         "vscode",
+        "go",
+        "golang",
+        "gomod",
         "quick-open-library"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "yangshu",
     "engines": {
         "vscode": "^1.27.0"
