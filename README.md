@@ -1,6 +1,6 @@
 ## quick-open-libray
 ### vscode market search for 'quick-open-libray'
-
+[market](https://marketplace.visualstudio.com/items?itemName=yangshu.quick-open-library&ssr=false#overview)
 #### Install 'code' to environment variable
 ```
 1. command + shift + p
